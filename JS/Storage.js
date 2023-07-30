@@ -13,7 +13,7 @@ let password;
         if(Email.includes("gmail.com")) {
             errorMessageE.textContent = "";
             if(password.length >= 6) {
-                window.location.href = '../Project/HTML/Login.html';
+                window.location.href = '../Furnito/HTML/Login.html';
             }
             else {
                 errorMessageP.textContent = "Invalid Password";
