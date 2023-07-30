@@ -53,7 +53,7 @@ function Validate() {
     if (UserName === Uname) {
         errorMessage2.textContent = "";
         if(password === Pword) {
-            window.location.href = '../HTML/Home.html';
+            window.location.href = '../Furnito/HTML/Home.html';
         }
         else {
             errorMessage1.textContent = "Invalid password.";
