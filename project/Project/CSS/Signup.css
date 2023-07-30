@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: Merienda;
+}
+
+h5, h2, h3, h4, h5, h6, p {
+    font-family: Poppins;
+}
+
+#red {
+    color: #FF0000;
+}
+
+#Head {
+    position: absolute;
+    color: #6A036C;
+    font-size: 65px;
+    left: 151px;
+    top: 75px;
+}
+
+.main {
+    display: block;
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 60%;
+}
+
+.img {
+    position: absolute;
+    width: 480px;
+    height: 360px;
+    padding: 262px 876px 161px 779px;
+    background-size: auto;
+    background-image: url(../Assert/Signup-cover.png);
+    background-position: center center; 
+    background-repeat: no-repeat;
+}
+
+#welcome {
+    position: absolute;
+    color: #3F3F3F;
+    font-size: 24px;
+    top: 179px;
+    left: 292px;
+}
+
+#Uname {
+    position: absolute;
+    color: #BD1CC0;
+    font-size: 24px;
+    top: 253px;
+    left: 118px;
+}
+
+#Email {
+    position: absolute;
+    color: #BD1CC0;
+    font-size: 24px;
+    top: 376px;
+    left: 118px;
+}
+
+#Pword {
+    position: absolute;
+    color: #BD1CC0;
+    font-size: 24px;
+    top: 499px;
+    left: 118px;
+}
+
+.I1, .I2 , .I3 {
+    position: absolute;
+    width: 346px;
+    height: 56px;
+    border-radius: 32px;
+    border: solid #6A036C;
+    font-size: 22px;
+    font-family: Poppins;
+    color: #3F3F3F;
+    z-index: 1;
+    pointer-events: auto;
+    padding-left: 40px;
+}
+
+.I1 {
+    left: 151px;
+    top: 300px;
+}
+
+.I2 {
+    left: 151px;
+    top: 423px;
+}
+
+.I3 {
+    left: 151px;
+    top: 546px;
+}
+
+input::placeholder {
+    font-size: 22px;
+    font-family: Poppins;
+}
+
+.I1:focus , .I2:focus , I3:focus {
+    outline-color: #145f60;
+    background-color: rgb(248, 244, 244);
+}
+
+.FPword {
+    position: absolute;
+    top: 587px;
+    left: 373px;
+    color: #C4C4C4;
+    font-size: 18px;
+    z-index: 1;
+}
+
+.SignUp {
+    position: absolute;
+    font-family: Merienda;
+    font-size: 22px;
+    top: 720px;
+    left: 374px;
+    color: #C4C4C4;
+    z-index: 1;
+}
+
+#purple {
+    color: #6A036C;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+button { 
+    position: absolute;
+    background-color: #6A036C;
+    width: 375px;
+    height: 56px;
+    border-radius: 36px;
+    color: snow;
+    border: none;
+    z-index: 1;
+    top: 640px;
+    left: 151px;
+    font-family: merienda;
+}
+
+div#errorN {
+    display: flex;
+    position: absolute;
+    top: 322px;
+    left: 555px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 162, 162);
+    font-family: Merienda;
+    font-size: 12px; 
+}
+
+div#errorE {
+    display: flex;
+    position: absolute;
+    top: 445px;
+    left: 555px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 162, 162);
+    font-family: Merienda;
+    font-size: 12px;
+}
+
+div#errorP {
+    display: flex;
+    position: absolute;
+    top: 569px;
+    left: 555px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 162, 162);
+    font-family: Merienda;
+    font-size: 12px;
+} 

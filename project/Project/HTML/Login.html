@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furnito | Login</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merienda&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
+    <link rel="stylesheet" href="../CSS/Login.css">
+</head>
+<body>
+        <h1 id="Head"><span id="red">-</span> Login <span id="red">-</span></h1>
+        <h5 id="welcome">Welcome Back To Furnito</h5>
+        <form id="loginForm">
+        <h5 id="Uname">User Name <span id="red">:</span></h5>
+        <input type="text" autofocus placeholder="Username" class="I1" required>
+        <h5 id="Pword">Password <span id="red">:</span></h5>
+        <input type="password" placeholder="Password" class="I2">
+        <a href="#"><p class="FPword">Forgot Password ?</p></a>
+        <button type="button" id="Submit" onclick="Validate()">Login</button>
+        </form>
+        <h2 class="SignUp">Don’t have an Account <span id="red">-</span> <a href="../HTML/index.html"><span id="purple">Signup</span></a></h2>
+    <div class="img"></div>
+    <div id="error1"></div>
+    <div id="error2"></div>
+    <script src="../JS/Storage.js"></script>
+    <!-- <script src="../JS/Signup.js"></script> -->
+</body>
+</html>

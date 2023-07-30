@@ -1,0 +1,111 @@
+#navBar{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 15%;
+	background-color: white;
+	border-bottom: 2px solid #f3f3f3;
+}
+
+a{
+	text-decoration: none;
+	color: #151411;
+}
+
+#navProduct{
+	position: absolute;
+	top: 24%;
+	left: 35%;
+	color: #FFB23F;
+}
+
+#navServices{
+	position: absolute;
+	top: 24%;
+	left: 45%;
+}
+
+#navAboutUs{
+	position: absolute;
+	top: 24%;
+	left: 55%;
+}
+
+#navLogo{
+	position: absolute;
+	top: 29%;
+	left: 2%;
+}
+
+#navWebName{
+	position: absolute;
+	top: 20%;
+	left: 7%;
+}
+
+#navUser{
+	position: absolute;
+	top: 34%;
+	left: 90%;
+}
+
+#Product{
+	position: absolute;
+	top: 20%;
+	left: 10%;
+}
+
+#common{
+	position: absolute;
+	top: 40%;
+	left: 55%;
+}
+
+#name{
+	position: absolute;
+	top: 20%;
+	left: 55%;
+	ont-weight: 700;
+	font-size: 44px;
+	line-height: 130%;
+}
+
+#related{
+	position: absolute;
+	top: 102.5%;
+	left: 10%;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 130%;
+}
+
+h1,p,h3,h6{
+	font-family: 'Eudoxus Sans';
+	font-style: normal;
+}
+
+#pro7{
+	position: absolute;
+	top: 120%;
+	left: 10%;
+}
+
+#pro8{
+	position: absolute;
+	top: 120%;
+	left: 40%;
+}
+
+#pro9{
+	position: absolute;
+	top: 120%;
+	left: 70%;
+}
+
+#footer{
+	position: absolute;
+	top: 200%;
+	left: 10%;
+	padding-bottom: 10%;
+}

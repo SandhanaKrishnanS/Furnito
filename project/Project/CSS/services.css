@@ -1,0 +1,162 @@
+#navBar{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 15%;
+	background-color: white;
+	border-bottom: 2px solid #f3f3f3;
+}
+
+a{
+	text-decoration: none;
+	color: #151411;
+}
+
+#navProduct{
+	position: absolute;
+	top: 24%;
+	left: 35%;
+}
+
+#navServices{
+	position: absolute;
+	top: 24%;
+	left: 45%;
+	color: #FFB23F;
+}
+
+#navAboutUs{
+	position: absolute;
+	top: 24%;
+	left: 55%;
+;
+}
+
+#navLogo{
+	position: absolute;
+	top: 29%;
+	left: 2%;
+}
+
+#navWebName{
+	position: absolute;
+	top: 20%;
+	left: 7%;
+}
+
+#navUser{
+	position: absolute;
+	top: 34%;
+	left: 90%;
+}
+
+#h1Headline{
+	position: absolute;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 130%;
+	top: 20%;
+	text-align: center;
+	width: 50%;
+	left: 25%;
+}
+
+#pSubtitle{
+	position: absolute;
+	font-style: normal;
+	line-height: 130%;
+	top: 40%;
+	text-align: center;
+	width: 50%;
+	left: 25%;
+	font-size: 18px;
+	line-height: 180%;
+	color: #AFADB5;
+}
+
+#imgCover{
+	position: absolute;
+	top: 60%;
+	left: 7%;
+}
+
+#title1{
+	position: absolute;
+	top: 140%;
+	left: 8%;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 130%;
+	color: #FFB23F;
+}
+
+#portfolio{
+	position: absolute;
+	top: 145%;
+	left: 7.5%;
+	ont-weight: 700;
+	font-size: 44px;
+	line-height: 130%;
+	width: 30%;
+}
+
+h1,p,h3{
+	font-family: 'Eudoxus Sans';
+	font-style: normal;
+}
+
+#description{
+	position: absolute;
+	top: 150%;
+	left: 50%;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 180%;
+	color: #AFADB5;
+	width: 35%;
+}
+
+
+#viewPortfolio{
+	position: absolute;
+	top: 165%;
+	left: 50%;
+	font-style: normal;
+    font-weight: 700;
+	font-size: 18px;
+	line-height: 130%;
+	color: #518581;
+	width: 30%;
+}
+
+#imgPortfolio {
+	position: absolute;
+	top: 180%;
+	left: 7.5%;
+}
+
+#pIntrest{
+	position: absolute;
+	top: 270%;
+	left: 7%;
+	ont-weight: 700;
+	font-size: 44px;
+	line-height: 130%;
+	color: #151411;
+	width: 30%;
+}
+
+#button{
+	position: absolute;
+	top: 280%;
+	left: 70%;
+}
+
+#footer{
+	position: absolute;
+	top: 320%;
+	left: 10%;
+	padding-bottom: 10%;
+}
