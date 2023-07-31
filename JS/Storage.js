@@ -16,15 +16,15 @@ let password;
                 window.location.href = '../Furnito/HTML/Login.html';
             }
             else {
-                errorMessageP.textContent = "Invalid Password";
+                errorMessageP.textContent = "Invalid Password Should contain 6 char";
             }
         }
         else {
-            errorMessageE.textContent = "Invalid Email";
+            errorMessageE.textContent = "Invalid Email Format";
         }
     }
     else {
-        errorMessageN.textContent = "Invalid Username";
+        errorMessageN.textContent = "Username Should Contains 5 letter";
     }
     console.log(UserName);
     localStorage.setItem('UserName' , UserName);
@@ -60,5 +60,5 @@ function Validate() {
         }
     } else {
         errorMessage2.textContent = "Username does not exist.";
-    }
+    } 
 }
